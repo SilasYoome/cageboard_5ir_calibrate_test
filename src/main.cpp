@@ -1,7 +1,7 @@
 #include <Arduino.h>
 #include <moto_NeoPixel.h>
 #define DEBUG 0
-#define BLACK_LINE true
+#define BLACK_LINE false
 moto_NeoPixel strip13 = moto_NeoPixel(2, 13, NEO_GRB + NEO_KHZ800);
 
 
